@@ -9,7 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: #f5efe6; /* Fondo general de la página */
+    background: rgb(239,225,198);
+    background: linear-gradient(150deg, rgba(239,225,198,1) 32%, rgba(85,99,102,1) 100%);
 }
 
 /* Navbar superior */
