@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+main{
+    display: flex;
+    background-color: #efe1ce;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.fotoVino{
+    max-height: 500px;
+}
+footer{
+    background-color: #511730;
+}
+body{
+    background: rgb(239,225,198);
+    background: linear-gradient(150deg, rgba(239,225,198,1) 32%, rgba(85,99,102,1) 100%);
+}
